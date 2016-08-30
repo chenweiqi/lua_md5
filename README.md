@@ -18,12 +18,17 @@ make install
 
 The last step may require root privileges.
 
+To test, please call
+
+```
+make test
+```
 
 ## Buiding on Windows
 
 Please find md5.dsw at /vc6, and execute with the Visual Studio. The min version of VS is vc6, you can use vc2010, vc2015 and so on. 
 
-Its drawback is that it only supports Lua 5.3/x86 version, which will be improved in the future.
+Its drawback is that it only supports Lua 5.3/x86 version, which will be improved in the future. (Why? Because it need the static library of Lua 5.3, I just build the x86 version)
 
 
 ## License
