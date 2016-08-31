@@ -1,4 +1,3 @@
 LIBRARY core.dll
-VERSION 1.0.1
 EXPORTS
 luaopen_md5_core
